@@ -1,6 +1,15 @@
 # mgr-vip-agent
 msyql mgr vip agent
 
+##  依赖安装
+```bash
+yum install -y epel-release
+yum install -y libdbi-dbd-mysql.x86_64  \
+        perl-DBD-MySQL.x86_64.0.4.023-6.el7 \
+        perl-DBI \
+        perl-Getopt-Long-Descriptive
+```
+
 
 ## example
 
