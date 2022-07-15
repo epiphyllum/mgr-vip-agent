@@ -5,6 +5,7 @@ msyql mgr vip agent
 ## example
 
 例子:
+```bash
 ./mgr_vip_agent.pl \
    --vip 192.168.70.79 \
    --vip_mask 24 \
@@ -17,8 +18,11 @@ msyql mgr vip agent
    --notify_max=10 \
    --logfile /tmp/mgr-agent.log \
    --mode=front
+```
+
 
 ## arguments
+
 参数说明:
    --vip        vip地址
    --vip_mask   子网掩码, 默认24
