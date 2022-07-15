@@ -22,7 +22,7 @@ msyql mgr vip agent
 
 
 ## arguments
-
+```text
 参数说明:
    --vip        vip地址
    --vip_mask   子网掩码, 默认24
@@ -35,3 +35,4 @@ msyql mgr vip agent
    --notify_max
    --logfile    日志文件, 默认: /tmp/mgr-agent.log
    --mode       运行模式, 默认前台模式(front), 可选: front, backend
+```
